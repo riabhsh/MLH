@@ -16,4 +16,40 @@ html {
     margin-bottom: 2em;
     color: #1d1d1d;
   }
+
+  /* Navbar */
+  .navbar{
+    background-color: #111;
+    padding: 10px 5px;
+    border-radius: 10px;
+  }
+
+  .navbar menu{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    gap: 2px;
+  }
   
+  .navbar a {
+    color: #eee;
+    text-decoration: none;
+    list-style-type: none;
+  }
+
+  .navbar a:hover{
+    text-decoration: underline;
+  }
+
+  pre{
+    background-color: #f9f5f9;
+    padding: 16px;
+    border-radius: 10px;
+    overflow-x: auto;
+  }
+
+  code{
+    color: #222;
+    font-family: monospace;
+  }
